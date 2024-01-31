@@ -1,0 +1,55 @@
+feed forward neural network with 2 layers
+used pytorch / also there us with tensorflow
+
+training of data
+1. bag of words -> converting evrything to an array 
+                    hi, how are you, bye
+            hi     [1,0,0,0,0] (0) greeting
+            how    [0,1,0,0,0]
+
+            bye    [0,0,0,0,1] (1) goodbye
+
+                       x        y 
+
+FEED FOWARD NEURAL network
+
+
+  x      sentence            number of patterns      no.of classes       softmax         y
+        (bag of words)  
+
+
+tonenization-> splitting into meaningful units
+
+                hi, how r u?-> [ hi, how, r , u,?]
+
+stemming -> generate the root form of the words , "mostly chops of the ends off pf words"
+
+                organize, organizes, orgainizing
+                [oragn,organ,organ]
+
+
+                NLP preprocessing pipeline 
+
+
+                hi, how r u?
+                | ->tokenize
+                [hi,how,r,u,?]
+                |  -> lower+stem
+                [hi,how,r,u,?]
+                |   -> exclude punctuation characters
+                [hi,how,r,u]
+                |   -> bag of words
+            x->    [1,0,0,0]
+
+
+use a framework -> NLTK toolkit
+
+1. activate virtual venv.
+2. install/ activate pytorch  -? pip install torch
+        torch version -> 2.1.2+cpu
+
+3. install nltk  -> pip install nltk
+        open nltk_utills.py and continue
+
+        punkt -> a package with pre trained tokenizer.
+        

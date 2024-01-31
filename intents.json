@@ -1,0 +1,969 @@
+{
+    "intents": [
+      {
+        "tag": "greet",
+        "patterns": [
+          "hey",
+          "hello",
+          "hi",
+          "hello there",
+          "good morning",
+          "good evening",
+          "morning",
+          "hey there",
+          "let's go",
+          "hey dude",
+          "goodmorning",
+          "goodevening",
+          "good afternoon"
+        ],
+        "responses": [    {
+          "buttons": [
+            {
+              "payload": "What is Agile and Why Agile?",
+              "title": "What is Agile and Why Agile?"
+            },
+            {
+              "payload": "Agile Topics",
+              "title": "Agile Topics"
+            }
+          ],
+          "text": "Heyy!! What would you like to explore.",
+          "image": "https://cdn.dribbble.com/users/1141571/screenshots/3340897/agile.gif"
+        }]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "cu",
+          "good by",
+          "cee you later",
+          "good night",
+          "have a nice day",
+          "see you around",
+          "bye bye",
+          "see you later",
+          "goodbye",
+          "bye",
+          "see ya",
+          "farewell",
+          "adios",
+          "take care",
+          "catch you later",
+          "until next time"
+        ],
+        "responses": [    {
+          "text": "Great!!,Bye!!, Have a nice day!!"
+        }]
+      },
+      {
+        "tag": "affirm",
+        "patterns": [
+          "yes",
+          "y",
+          "that sounds good",
+          "correct",
+          "yeah",
+          "sure",
+          "absolutely",
+          "indeed",
+          "of course",
+          "definitely",
+          "affirmative",
+          "right",
+          "absolutely right"
+        ],
+        "responses": [    {
+          "text": "Okay! What would you like to do next? You can ask a question, provide more details, or request specific information."
+        }]
+      },
+      {
+        "tag": "deny",
+        "patterns": [
+          "no",
+          "never",
+          "don't like that",
+          "no way",
+          "n",
+          "nope",
+          "nah",
+          "not really",
+          "I don't think so",
+          "I disagree",
+          "not at all"
+        ],
+        "responses": [    {
+          "text": "I apologize for any confusion. Let's start fresh. What information are you looking for, or how can I assist you?"
+        }]
+      },
+      {
+        "tag": "mood_great",
+        "patterns": [
+          "perfect",
+          "great",
+          "amazing",
+          "feeling like a king",
+          "wonderful",
+          "I am feeling very good",
+          "I am great",
+          "I am amazing",
+          "I am going to save the world",
+          "super stoked",
+          "extremely good",
+          "so so perfect",
+          "so good",
+          "so perfect"
+        ],
+        "responses": [    {
+          "text": "Great!!, Have a nice day!!"
+        }]
+      },
+
+
+      {
+        "tag": "bot_challenge",
+        "patterns": [
+          "are you a bot?",
+          "are you a human?",
+          "am I talking to a bot?",
+          "am I talking to a human?",
+          "who are you?",
+          "how are you?"
+        ],
+        "responses": [    {
+          "text": "I am Agile bot, i can assist you on agile related topics."
+        }]
+      },
+      {
+        "tag": "What_is_Agile_and_Why_Agile",
+        "patterns": [
+          "What is Agile and Why Agile?",
+          "tell me about Agile and Why Agile",
+          "can you tell what is Agile and Why Agile?",
+          "do you know what is Agile and Why Agile?",
+          "i need to find what is Agile and Why Agile",
+          "can you find me what is Agile and Why Agile",
+          "what is Agile and Why Agile?",
+          "Agile",
+          "agile",
+          "how would you like to help me with Agile",
+          "why agile"
+        ],
+        "responses": [    {
+          "buttons": [
+            {
+              "payload": "History of Agile",
+              "title": "History of Agile"
+            },
+            {
+              "payload": "Agile Manifesto",
+              "title": "Agile Manifesto"
+            }
+          ],
+          "text": "Agile is a way of developing software that prioritizes flexibility, teamwork, and customer satisfaction. Instead of having a strict plan from the start and following it, the Agile approach involves regularly checking in and making changes along the way based on what is learned and what the customer wants. The goal is to deliver a useful product as quickly as possible and to be able to respond to changes along the way\n<a href='https://connext.conti.de/communities/service/html/communitystart?communityUuid=d37de19c-aa24-46d9-a825-60243e2d92da' target='_blank'>Click here for more Info</a>."
+        }]
+      },
+      {
+        "tag": "Agile_Topics",
+        "patterns": [
+          "Agile Topics",
+          "tell me about Agile Topics",
+          "can you tell what is Agile Topics?",
+          "do you know Agile Topics?",
+          "i need to find what is Agile Topics",
+          "can you find me what is Agile Topics",
+          "what is Agile Topics?",
+          "agile details",
+          "agile topics",
+          "how would like to help me with agile topics",
+          "help me with agile topics"
+        ],
+        "responses": [ {
+          "buttons": [
+            {
+              "payload": "SCRUM",
+              "title": "SCRUM"
+            },
+            {
+              "payload": "KANBAN",
+              "title": "KANBAN"
+            },
+            {
+              "payload": "Agile Project Management",
+              "title": "Agile Project Management"
+            },
+            {
+              "payload": "Scaled Agile Framework (SAFe)",
+              "title": "Scaled Agile Framework (SAFe)"
+            },
+            {
+              "payload": "eLearnings - SW Academy",
+              "title": "eLearnings - SW Academy"
+            },
+            {
+              "payload": "Trainings - Internal/External/Certification",
+              "title": "Trainings - Internal/External/Certification"
+            },
+            {
+              "payload": "TCI - Agile CoE - Contact",
+              "title": "TCI - Agile CoE - Contact"
+            }
+          ],
+          "text": "Click on the below topics to know more ⬇️"
+        }]
+      },
+      {
+        "tag": "History_of_Agile",
+        "patterns": [
+          "History of Agile",
+          "tell me about History of Agile",
+          "can you tell what is History of Agile?",
+          "do you know History of Agile?",
+          "i need to find what is History of Agile",
+          "can you find me what is History of Agile",
+          "what is History of Agile?",
+          "how was agile came",
+          "why is agile need to known",
+          "why is agile needed"
+        ],
+        "responses": [    {
+          "text": "The Agile methodology originated in the software development industry as a new way to manage software development. Many software development projects were failing or taking much too long to complete, and industry leaders realized they needed to find a new, innovative approach. In 2001, the Manifesto for Agile Software Development was created.",
+          "image": "/images/history%20of%20agile%202.jpg"
+        }
+        ]
+      },
+
+      {
+        "tag": "Agile_Manifesto",
+        "patterns": [
+          "Agile Manifesto",
+          "tell me about Agile Manifesto",
+          "can you tell what is Agile Manifesto?",
+          "do you know Agile Manifesto?",
+          "i need to find what is Agile Manifesto",
+          "can you find me what is Agile Manifesto",
+          "what is Agile Manifesto?",
+          "why agile manifesto"
+        ],
+        "responses": [    {
+          "buttons": [
+            {
+              "payload": "Agile Values",
+              "title": "Agile Values"
+            },
+            {
+              "payload": "Agile Principles",
+              "title": "Agile Principles"
+            }
+          ],
+          "text": "The Agile Manifesto is a document that identifies four key values and 12 principles that guide software development. The Manifesto for Agile Software Development, it was produced by 17 developers during an outing on Feb. 11-13, 2001, at The Lodge at Snowbird ski resort in Utah.",
+          "image": "/images/agile%20manifesto.jpg"
+        }]
+      },
+      {
+        "tag": "Agile_Values",
+        "patterns": [
+          "Agile Values",
+          "tell me about Agile Values",
+          "can you tell what is Agile Values?",
+          "do you know Agile Values?",
+          "i need to find what is Agile Values",
+          "can you find me what is Agile Values",
+          "what is Agile Values?",
+          "how would agile values would help ?"
+        ],
+        "responses": [    {
+          "text": "Agile Values refers to the set of 4 values outlined by the Agile Alliance in The Agile Manifesto. This set of values encourages putting people before processes, getting software out the door fast, collaborating with customers, and adjusting plans as needed.",
+          "image": "/images/agile%20values%202.jpg"
+        }]
+      },
+      {
+        "tag": "Agile_Principles",
+        "patterns": [
+          "Agile Principles",
+          "tell me about Agile Principles",
+          "can you tell what is Agile Principles?",
+          "do you know Agile Principles?",
+          "i need to find what is Agile Principles",
+          "can you find me what is Agile Principles",
+          "what is Agile Principles?",
+          "why agile principles is needed ?",
+          "give me agile principles"
+        ],
+        "responses": [    {
+          "text": "There are 12 Agile Principles outlined in The Agile Manifesto in addition to the 4 agile values. These 12 principles for agile software development help establish the tenets of the agile mindset. Agile principles support observing changing markets, customer needs, and competitive threats and changing course when necessary.",
+          "image": "/images/ap%206.jpg"
+        }]
+      },
+      {
+        "tag": "SCRUM",
+        "patterns": [
+          "SCRUM",
+          "tell me about SCRUM",
+          "can you tell what is SCRUM?",
+          "do you know SCRUM?",
+          "i need to find what is SCRUM",
+          "can you find me what is SCRUM",
+          "what is SCRUM?",
+          "why do we need scrum",
+          "how would scrum"
+        ],
+        "responses": [ {
+          "buttons": [
+            {
+              "payload": "Three Pillars of Scrum",
+              "title": "Three Pillars of Scrum"
+            },
+            {
+              "payload": "Scrum Values",
+              "title": "Scrum Values"
+            },
+            {
+              "payload": "Scrum Roles",
+              "title": "Scrum Roles"
+            },
+            {
+              "payload": "Scrum Events",
+              "title": "Scrum Events"
+            },
+            {
+              "payload": "Scrum Artifacts",
+              "title": "Scrum Artifacts"
+            }
+          ],
+          "text": "Scrum is an agile project management framework that helps team structure and manage their work through a set of values, principles, and practices. It is an iterative approach, consisting of sprints that typically only last one to four weeks. This approach ensures that the teams deliver value incrementally in a collaborative way.",
+          "image": "/images/scrum%20framework.jpg"
+        }]
+      },
+      {
+        "tag": "Three_Pillars_of_Scrum",
+        "patterns": [
+          "Three Pillars of Scrum",
+          "tell me about Three Pillars of Scrum",
+          "can you tell what is Three Pillars of Scrum?",
+          "do you know Three Pillars of Scrum?",
+          "i need to find what is Three Pillars of Scrum",
+          "can you find me what is Three Pillars of Scrum",
+          "what is Three Pillars of Scrum?"
+        ],
+        "responses": [    {
+          "text": "Scrum is based on the theory of empirical process control, which relies on Transparency, Inspection, & Adaptation.",
+          "image": "/images/scrum%20pillars.jpg"
+        }]
+      },
+      {
+        "tag": "Scrum_Values",
+        "patterns": [
+          "Scrum Values",
+          "tell me about Scrum Values",
+          "can you tell what is Scrum Values?",
+          "do you know Scrum Values?",
+          "i need to find what is Scrum Values",
+          "can you find me what is Scrum Values",
+          "what is Scrum values",
+          "values of Scrum",
+          "what are Scrum values"
+        ],
+        "responses": [    {
+          "text": "The Scrum Values of Courage, Focus, Commitment, Respect, and Openness, are all important elements that Scrum Team members must consider when working together. The Scrum Values are particularly important in environments where experimentation is core to making progress.",
+          "image": "/images/scrum%20values.jpg"
+        }]
+      },
+      {
+        "tag": "Scrum_Roles",
+        "patterns": [
+          "Scrum Roles",
+          "tell me about Scrum Roles",
+          "can you tell what is Scrum Roles?",
+          "do you know Scrum Roles?",
+          "i need to find what is Scrum Roles",
+          "can you find me what is Scrum Roles",
+          "what is Scrum Roles?",
+          "scrum master details",
+          "who is scrum master?",
+          "what is scrum master and their roles??",
+          "who is product owner?",
+          "product owner roles",
+          "developers",
+          "developer roles"
+        ],
+        "responses": [ {
+          "text": "The people on the Scrum Team",
+          "custom": {
+            "payload": "collapsible",
+            "data": [
+              {
+                "title": "Scrum Master 🎓",
+                "description": "The person on the Scrum Team who uses their knowledge of Scrum to help the team and organization to be as effective as they can be; they do so by taking approaches like coaching, teaching, facilitating and mentoring."
+              },
+              {
+                "title": "Product Owner 👨‍💼",
+                "description": "The person on the Scrum Team who makes sure that the team is creating the most valuable product they can create."
+              },
+              {
+                "title": "Developers 👨‍👦‍👦",
+                "description": "The people on the Scrum Team who work together to create the product."
+              }
+            ]
+          },
+          "image": "/images/scrumroles.jpg"
+        }]
+      },
+      {
+        "tag": "Scrum_Events",
+        "patterns": [
+          "Scrum Events",
+          "tell me about Scrum Events",
+          "can you tell what is Scrum Events?",
+          "do you know Scrum Events?",
+          "i need to find what is Scrum Events",
+          "can you find me what is Scrum Events",
+          "what is Scrum Events?",
+          "sprint planning",
+          "what is sprint",
+          "daily scrum",
+          "sprint review",
+          "sprint retrospective",
+          "events of scrum",
+          "help with scrum events",
+          "why scrum events"
+        ],
+        "responses": [    {
+          "text": "Events that create regularity and minimize other meetings",
+          "custom": {
+            "payload": "collapsible",
+            "data": [
+              {
+                "title": "Sprint",
+                "description": "Short cycles of one month or less, during which the work is done; the Sprint contains all of the other Scrum events; a new Sprint starts immediately after the conclusion of the previous Sprint."
+              },
+              {
+                "title": "Sprint Planning",
+                "description": "Event dedicated to planning out the work that will take place during the Sprint."
+              },
+              {
+                "title": "Daily Scrum",
+                "description": "Event held every day where the Developers inspect the progress toward the Sprint Goal, uncover anything that may be getting in their way and adapt accordingly."
+              },
+              {
+                "title": "Sprint Review",
+                "description": "Event held at the end of the Sprint where the Scrum Team and key stakeholders review what was accomplished in the Sprint and what has changed in their environment; next, attendees collaborate on what to do next."
+              },
+              {
+                "title": "Sprint Retrospective",
+                "description": "The Scrum Team gets together during this event to talk about how the last Sprint went and identify the most helpful changes to improve their effectiveness."
+              }
+            ]
+          },
+          "image": "/images/scrum%20events.jpg"
+        }]
+      },
+      {
+        "tag": "Scrum_Artifacts",
+        "patterns": [
+          "Scrum Artifacts",
+          "tell me about Scrum Artifacts",
+          "can you tell what is Scrum Artifacts?",
+          "do you know Scrum Artifacts?",
+          "i need to find what is Scrum Artifacts",
+          "can you find me what is Scrum Artifacts",
+          "what is Scrum Artifacts?",
+          "Product Backlog",
+          "Product Backlog Commitment",
+          "Sprint Backlog",
+          "Sprint Backlog Commitment",
+          "Increments",
+          "Increments Commitment",
+          "Burndown Charts"
+        ],
+        "responses": [    {
+          "text": "The plans and work which are transparent and can be inspected allowing for future adaptation; Each artifact has its own Commitment which helps the team understand if they are making progress",
+          "custom": {
+            "payload": "collapsible",
+            "data": [
+              {
+                "title": "Product Backlog",
+                "description": "An evolving, ordered list of what is needed to improve the product; it is the single source of work undertaken by the Scrum Team."
+              },
+              {
+                "title": "Commitment",
+                "description": "Product Goal-the target the team plans against."
+              },
+              {
+                "title": "Sprint Backlog",
+                "description": "A highly visible list of work that is the Developer’s plan for the Sprint, which may evolve as they learn."
+              },
+              {
+                "title": "Commitment",
+                "description": "Sprint Goal- the single objective of the Sprint."
+              },
+              {
+                "title": "Increments",
+                "description": "Small pieces of work that serve as concrete stepping stones toward the Product Goal. You can deliver as often as needed during the Sprint and are not limited to only one release per Sprint."
+              },
+              {
+                "title": "Commitment",
+                "description": "Definition of Done- the description of what it takes for an Increment to be considered complete."
+              },
+              {
+                "title": "Burndown Charts",
+                "description": "A sprint burndown (or burnup) chart is not an official scrum artifact, but many teams use it to communicate and track progress toward the sprint goal during the sprint."
+              }
+            ]
+          },
+          "image": "/images/scrum%20antifacts.jpg"
+        }]
+      },
+      {
+        "tag": "Kanban",
+        "patterns": [
+          "Kanban",
+          "tell me about Kanban",
+          "can you tell what is Kanban?",
+          "do you know Kanban?",
+          "i need to find what is Kanban",
+          "can you find me what is Kanban",
+          "what is Kanban?"
+        ],
+        "responses": [    {
+          "buttons": [
+            {
+              "payload": "Kanban History",
+              "title": "Kanban History"
+            },
+            {
+              "payload": "Kanban Definition",
+              "title": "Kanban Definition"
+            },
+            {
+              "payload": "Kanban Principles",
+              "title": "Kanban Principles"
+            },
+            {
+              "payload": "Kanban Core Practices",
+              "title": "Kanban Core Practices"
+            },
+            {
+              "payload": "Benefits of Kanban",
+              "title": "Benefits of Kanban"
+            }
+          ],
+          "text": "Kanban is a popular Lean workflow management method for defining, managing, and improving services that deliver knowledge work. It helps you visualize work, maximize efficiency, and improve continuously. Work is represented on Kanban boards, allowing you to optimize work delivery across multiple teams and handle even the most complex projects in a single environment.",
+          "image": "/images/kanban.jpg"
+        }]
+      },
+      {
+        "tag": "Kanban_History",
+        "patterns": [
+          "History",
+          "tell me about History",
+          "can you tell what is History?",
+          "do you know History?",
+          "i need to find what is History",
+          "can you find me what is History",
+          "what is History?",
+          "how would kanban help me",
+          "solve the problem with kanban"
+        ],
+        "responses": [ {
+          "text": "Taiichi Ohno introduced kanban at Toyota in the late 1940s. He was an industrial engineer and eventual executive at the company. Today he is considered the 'father' of the Toyota Production System, which inspired lean manufacturing in the United States. At the time, Toyota was struggling to compete with the American car market. So, Toyota looked at how other supply chains handled fulfillment by matching inventory levels with consumption patterns. This research led Toyota to see consumer demand as part of the manufacturing process — a required input precedent to production. Ohno aimed to eliminate overproduction by introducing new inventory only when absolutely necessary. Factories were reorganized so that parts production and assembly happened at the same rate, with assembly workers taking parts only as needed. They called it the 'just in time' (JiT) method — but more on that later."
+        }]
+      },
+      {
+        "tag": "Kanban_Definition",
+        "patterns": [
+          "Definition",
+          "tell me about Definition",
+          "can you tell what is Definition?",
+          "do you know Definition?",
+          "i need to find what is Definition",
+          "can you find me what is Definition",
+          "what is Definition?"
+        ],
+        "responses": [{
+          "text": "The Kanban Method is a means to design, manage, and improve flow systems for knowledge work. The method also allows organizations to start with their existing workflow and drive evolutionary change. They can do this by visualizing their flow of work, limit work in progress (WIP) and stop starting and start finishing. The Kanban Method gets its name from the use of kanban - visual signaling mechanisms to control work in progress for intangible work products."
+        }]
+      },
+      {
+        "tag": "Kanban_Principles",
+        "patterns": [
+          "Principles",
+          "tell me about Principles",
+          "can you tell what is Principles?",
+          "do you know Principles?",
+          "i need to find what is Principles",
+          "can you find me what is Principles",
+          "what is Principles?"
+        ],
+        "responses": [    {
+          "text": "David J. Anderson (a pioneer in the field of Lean/ Kanban for knowledge work and one of the founding fathers of the method) has formulated the Kanban method as an approach to incremental, evolutionary process and systems change for knowledge work organizations. It is focused on getting things done, and its fundamentals can be broken down into two types of principles and six practices.",
+          "image": "/images/kanban%20principles.jpg"
+        }]
+      },
+      {
+        "tag": "Kanban_Core_Practices",
+        "patterns": [
+          "Core Practices",
+          "tell me about Core Practices",
+          "can you tell Core Practices?",
+          "do you Core Practices?",
+          "i need to find what is Core Practices",
+          "can you find me what is Core Practices",
+          "what is SCore Practices?"
+        ],
+        "responses": [    {
+          "text": "While there are some overlaps with other Agile frameworks, Kanban is based on pull systems which allow you to start work where there is demand for a deliverable. As opposed to a time-based approach like Scrum, where sprints and events follow strict schedules. There are 6 Core Kanban Practices ",
+          "image": "/images/core%20practices%207.jpg"
+        }]
+      },
+      {
+        "tag": "Benefits_of_Kanban",
+        "patterns": [
+          "Benefits of Kanban",
+          "tell me about Benefits of Kanban",
+          "can you tell Benefits of Kanban",
+          "do you Benefits of Kanban",
+          "i need to find what is Benefits of Kanban",
+          "can you find me what is Benefits of Kanban",
+          "what is Benefits of Kanban?",
+          "why do i need kanban",
+          "why we need kanban"
+        ],
+        "responses": [    {
+          "text": "According to the 1st State of Kanban report, the leading reasons for adopting the Kanban method are the need for enhanced visibility of work and continuous improvement.",
+          "image": "/images/benefits%20of%20kanban%202.jpg"
+        }]
+      },
+      {
+        "tag": "Agile_Project_Management",
+        "patterns": [
+          "Agile Project Management",
+          "tell me about Agile Project Management",
+          "can you tell Agile Project Management",
+          "do you Agile Project Management",
+          "i need to find what is Agile Project Management",
+          "can you find me what is Agile Project Management",
+          "what is Agile Project Management?",
+          "project management",
+          "how do we manage with agile"
+        ],
+        "responses": [    {
+          "text": "Agile project management is an iterative approach to managing software development projects that focuses on continuous releases and incorporating customer feedback with every iteration. The ability to adjust during each iteration promotes velocity and adaptability. This approach is different from a linear, waterfall project management approach, which follows a set path with limited deviation.",
+          "image": "/images/advantage%20and%20disadvantage%201.jpg"
+        }]
+      },
+      {
+        "tag": "Scaled_Agile_Framework_(SAFe)",
+        "patterns": [
+          "Scaled Agile Framework (SAFe)",
+          "tell me about Benefits of Scaled Agile Framework (SAFe)",
+          "can you tell Scaled Agile Framework (SAFe)",
+          "do you Scaled Agile Framework (SAFe)",
+          "i need to find what is Scaled Agile Framework (SAFe)",
+          "can you find me what is Scaled Agile Framework (SAFe)",
+          "what is Scaled Agile Framework (SAFe)?",
+          "Safe?",
+          "SAFe",
+          "safe"
+        ],
+        "responses": [    {
+          "buttons": [
+            {"payload": "History of SAFe", "title": "History of SAFe"},
+            {"payload": "SAFe Core Values", "title": "SAFe Core Values"},
+            {"payload": "SAFe Principles", "title": "SAFe Principles"},
+            {"payload": "SAFe Configurations", "title": "SAFe Configurations"},
+            {"payload": "7 core competencies of SAFe", "title": "7 core competencies of SAFe"},
+            {"payload": "Strengths and Weaknesses of SAFe", "title": "Strengths and Weaknesses of SAFe"}
+          ],
+          "text": "The scaled agile framework (SAFe) is a set of organization and workflow patterns intended to guide enterprises in scaling lean and agile practices. The framework is a body of knowledge that includes structured guidance on roles and responsibilities, how to plan and manage the work, and values to uphold. SAFe promotes alignment, collaboration, and delivery across large numbers of agile teams. It was formed around three primary bodies of knowledge: agile software development, lean product development, and systems thinking."
+        }]
+      },
+      {
+        "tag": "History_of_SAFe",
+        "patterns": [
+          "History of SAFe",
+          "tell me about History of SAFe",
+          "can you tell History of SAFe",
+          "do you History of SAFe",
+          "i need to find what is History of SAFe",
+          "can you find me what is History of SAFe",
+          "what is History of SAFe?"
+        ],
+        "responses": [{
+          "text": "In 2011, the SAFe framework gained recognition in the product world. Software-Industry veteran Dean Leffingwell, the author of Agile Software Requirements, originally called the SAFe framework the 'Agile Enterprise Big Picture.' The 'Big Picture' described how to leverage existing agile frameworks such as Lean, Kanban, Scrum, and XP and apply them at the Team, Program, and Portfolio. SAFe remains one of the most popular agile frameworks. Below is a quick view of the Framework’s history.",
+          "image": "/images/history%20of%20safe%201.jpg",
+          "buttons": [
+            {
+              "payload": "More about SAFe History",
+              "title": "More about SAFe History"
+            }
+          ]
+        }]
+      },
+      {
+        "tag": "SAFe_Core_Values",
+        "patterns": [
+          "SAFe Core Values",
+          "tell me about SAFe Core Values",
+          "can you tell SAFe Core Values",
+          "do you SAFe Core Values",
+          "i need to find what is SAFe Core Values",
+          "can you find me what is SAFe Core Values",
+          "what is SAFe Core Values?",
+          "core of SAFe"
+        ],
+        "responses": [ {
+          "text": "The four core values of SAFe are alignment, built-in quality, transparency, and program execution. They all work together to align organizations so that they meet their desired goals. SAFe is very instrumental in large teams and focuses both on business systems and outcomes.",
+          "image": "/images/safe%20core%20values%203.jpg",
+          "buttons": [
+            {
+              "payload": "More about SAFe Core Values",
+              "title": "More about SAFe Core Values"
+            }
+          ]
+        }]
+      },
+      {
+        "tag": "SAFe_Principles",
+        "patterns": [
+          "SAFe Principles",
+          "tell me about SAFe Principles",
+          "can you tell SAFe Principles",
+          "do you SAFe Principles",
+          "i need to find what is SAFe Principles",
+          "can you find me what is SAFe Principles",
+          "what is SAFe Principles?",
+          "what are the principles of SAFe?"
+        ],
+        "responses": [{
+          "text": "SAFe is based on ten immutable, underlying Lean-Agile principles. These tenets and economic concepts inspire and inform the roles and practices of SAFe.",
+          "image": "/images/safe%20principles%202.jpg",
+          "buttons": [
+            {
+              "payload": "More about SAFe Principles",
+              "title": "More about SAFe Principles"
+            }
+          ]
+        }]
+      },
+      {
+        "tag": "SAFe_Configurations",
+        "patterns": [
+          "SAFe Configurations",
+          "tell me about SAFe Configurations",
+          "can you tell SAFe Configurations",
+          "do you SAFe Configurations",
+          "i need to find what is SAFe Configurations",
+          "can you find me what is SAFe Configurations",
+          "what is SAFe Configurations?",
+          "how to configure safe?",
+          "safe config"
+        ],
+        "responses": [" SAFe supports the full range of development environments with four out-of-the-box configurations. The configurations are described as below <br>Essential SAFe - is the most basic configuration. It describes the most critical elements needed and is intended to provide the majority of the framework's benefits. It includes the team and program level.<a href='https://www.scaledagileframework.com/essential-safe/' >Essential SAFe Link </a> <br>Large Solution SAFe – allows for coordination and synchronization across multiple programs, but without the portfolio considerations. In earlier versions of SAFe, this level was referred to as value stream.<a href='https://www.scaledagileframework.com/large-solution-safe/' >Large Solution SAFe Link </a> <br>Portfolio SAFe - includes concerns for strategic direction, investment funding, and lean governance.<a href='https://www.scaledagileframework.com/portfolio-safe/'>Portfolio SAFe Link </a> <br>Full SAFe - combines the other three levels. Full SAFe is the most comprehensive configuration, including all seven core competencies needed for business agility.<a href='https://www.scaledagileframework.com/safe-for-lean-enterprises/'>Full SAFe Link </a>"]
+      },
+      {
+        "tag": "7_Core_Competencies_of_SAFe",
+        "patterns": [
+          "7 core competencies of SAFe?",
+          "tell me about 7 core competencies of SAFe?",
+          "can you tell 7 core competencies of SAFe",
+          "do you 7 core competencies of SAFe",
+          "i need to find what is 7 core competencies of SAFe",
+          "can you find me what is 7 core competencies of SAFe",
+          "what is 7 core competencies of SAFe?",
+          "seven important competencies of safe",
+          "7 important competencies of safe",
+          "competencies of safe"
+        ],
+        "responses": ["SAFe constantly adapts to the current situation of the market and continuously provides updates of the framework to its users. The current edition, SAFe 5, is built around seven core competencies (with additional core competencies in comparison to older versions). Each of the seven core competencies are essential to achieve Business Agility. Each of the competencies is supported by an assessment specific to the competency. These assessments enable the organization to assess their proficiency. The seven core competencies are <br>1. Lean-Agile Leadership<a href='https://www.scaledagileframework.com/lean-agile-leadership/'>(LINK )</a> <br>2. Team and Technical Agility<a href='https://www.scaledagileframework.com/team-and-technical-agility/'>(LINK )</a> <br>3. Agile Product Delivery<a href='https://www.scaledagileframework.com/agile-product-delivery/'>(LINK )</a> <br>4. Enterprise Solution Delivery<a href='https://www.scaledagileframework.com/enterprise-solution-delivery/' >(LINK )</a> <br>5. Lean Portfolio Management<a href='https://www.scaledagileframework.com/lean-portfolio-management/' >(LINK )</a> <br>6. Organizational Agility<a href='https://www.scaledagileframework.com/organizational-agility/'>(LINK )</a> <br>7. Continuous Learning Culture<a href='https://www.scaledagileframework.com/continuous-learning-culture/'>(LINK )</a>"]
+      },
+      {
+        "tag": "Strengths_and_Weaknesses_of_SAFe",
+        "patterns": [
+          "Strengths and Weaknesses of SAFe",
+          "tell me about Strengths and Weaknesses of SAFe",
+          "can you tell Strengths and Weaknesses of SAFe",
+          "do you Strengths and Weaknesses of SAFe",
+          "i need to find what is Strengths and Weaknesses of SAFe",
+          "can you find me what is Strengths and Weaknesses of SAFe",
+          "what is Strengths and Weaknesses of SAFe?",
+          "weakness of SAFe",
+          "strengths of safe"
+        ],
+        "responses": [
+          {
+            "text": "Strengths and Weaknesses of SAFe ⬇️",
+            "image": "/images/strength%20and%20weakness%20of%20safe%201.jpg"
+            }
+        ]
+      },
+      {
+        "tag": "eLearnings_SW_Academy",
+        "patterns": [
+          "eLearnings – SW Academy",
+          "tell me about eLearnings – SW Academy",
+          "can you tell eLearnings – SW Academy",
+          "do you eLearnings – SW Academy",
+          "i need to find what is eLearnings – SW Academy",
+          "can you find me what is eLearnings – SW Academy",
+          "what is eLearnings – SW Academy",
+          "sw academy"
+        ],
+        "responses": ["The eLearnings – SW Academy 1.The Agile curriculum is modularly build so you can create your own learning journeys based on your needs.In order to obtain your personalized learning path<a href='https://continental.sharepoint.com/teams/team_10014975/Lists/Software%20Academy%20Courses/AllItems.aspx?env=WebViewList&viewid=a74a0e9a%2D80b1%2D4329%2Db006%2D9b92fcccf8e2&id=%2Fteams%2Fteam%5F10014975%2FLists%2FSoftware%20Academy%20Courses&view=7&q=agile&OR=Teams%2DHL&CT=1701769914305&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMzA5MjkxMTIwOCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D'>(LINK )</a>"]
+      },
+      {
+        "tag": "Trainings_InternalExternalCertification",
+        "patterns": [
+          "Trainings - InternalExternalCertification",
+          "tell me about Trainings - InternalExternalCertification",
+          "can you tell Trainings - InternalExternalCertification",
+          "do you Trainings - InternalExternalCertification",
+          "i need to find what is Trainings - InternalExternalCertification",
+          "can you find me what is Trainings - InternalExternalCertification",
+          "what is Trainings - InternalExternalCertification?",
+          "InternalExternalCertification"
+        ],
+        "responses": [
+          {
+            "text": "Trainings",
+            "image": "/images/trainings.png"
+            }
+        ]
+      },
+      {
+        "tag": "TCI_Agile_CoE_Contact",
+        "patterns": [
+          "TCI - Agile CoE - Contact",
+          "tell me about TCI - Agile CoE - Contact",
+          "can you tell TCI - Agile CoE - Contact",
+          "do you TCI - Agile CoE - Contact",
+          "i need to find what is TCI - Agile CoE - Contact",
+          "can you find me what is TCI - Agile CoE - Contact",
+          "what is TCI - Agile CoE - Contact ?",
+          "agile contact",
+          "agile coe"
+        ],
+        "responses": [        
+          {
+          "text": "Agile CoE - Contact",
+          "image": "/images/coe_contact.png"
+            }
+          ]
+      },
+      {
+        "tag": "new_query_please",
+        "patterns": [
+          "new query please",
+          "tell me about new query please",
+          "can you tell what is new query please?",
+          "do you know new query please?",
+          "i need to find what is new query please",
+          "can you find me what is new query please",
+          "what is new query please?"
+        ],
+        "responses": [
+          {
+          "text": "What would you like to explore? 📈",
+          "image": "https://cdn.dribbble.com/users/1141571/screenshots/3340897/agile.gif",
+          "buttons": [
+              {"payload": "What is Agile and Why Agile?", "title": "What is Agile and Why Agile?"},
+              {"payload": "Agile Topics", "title": "Agile Topics"}]
+            }
+          ]
+      },
+    
+      {
+        "tag": "out_of_scope",
+        "patterns": [
+          "dhstuknd",
+          "what are u doing",
+          "sudskksgsak",
+          "djugvzxksm",
+          "djskdhck",
+          "/[a-zA-Z0-9]/",
+          "/^.*(?:not\\sunderstand|confused|lost|help|not\\sclear|what\\sdo\\sI\\sdo).*$/"
+        ],
+        "responses": ["I'm sorry!! I didn't understand!"]
+      },
+      {
+        "tag": "ask_for_help",
+        "patterns": [
+          "Can you help me?",
+          "I need assistance",
+          "Help!",
+          "I'm confused",
+          "What do I do now?",
+          "This is too complicated",
+          "I need guidance",
+          "Please help",
+          "What should I do?"
+        ],
+        "responses": ["Absolutely! I'm here to help. What do you need assistance with?"]
+      },
+      {
+        "tag": "provide_feedback",
+        "patterns": [
+           "This is not helpful",
+          "Your response is confusing",
+          "I'm not satisfied with the answer",
+          "Your answer doesn't make sense",
+          "I expected better",
+          "I'm disappointed",
+           "This is frustrating",
+           "I need better assistance"
+         ],
+         "responses": ["I apologize for any confusion. Let's start fresh. What information are you looking for, or how can I assist you ?"]
+       },
+      {
+        "tag": "not_understandable",
+        "patterns": [
+          "I didn't understand",
+          "I can't understand you",
+          "Your response is unclear",
+          "Speak clearly",
+          "I can't make sense of this",
+          "Your language is confusing",
+          "What are you saying?",
+          "This doesn't make any sense",
+          "Can you rephrase that?",
+          "what??",
+          "sorry?",
+          "I don't understand",
+          "This is confusing",
+          "What are you talking about?",
+          "I'm lost",
+          "That doesn't make sense",
+          "Can you repeat that?",
+          "I don't get it",
+          "I'm not sure what you mean",
+          "This is unclear",
+          "What?"
+        ],
+        "responses": ["I apologize for any confusion. Let's start fresh. What information are you looking for, or how can I assist you today?"]
+      },
+      {
+        "tag": "acknowledge",
+        "patterns": [
+          "ok",
+          "okay",
+          "sure",
+          "absolutely",
+          "fine",
+          "all right",
+          "cool",
+          "no problem",
+          "affirmative",
+          "agreed",
+          "understood",
+          "indeed",
+          "absolutely right",
+          "go ahead",
+          "thank you",
+          "thanks",
+          "thank u"
+        ],
+        "responses": [" Okay! What would you like to do next? You can ask a question, provide more details, or request specific information."]
+      }
+
+    ]
+}
